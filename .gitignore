@@ -1,0 +1,28 @@
+# macOS system files
+.DS_Store
+
+# Xcode project user data
+*.xcuserdata/
+*.xcuserstate
+*.xcworkspace
+
+# Build and derived data
+build/
+DerivedData/
+
+# Swift Package Manager
+/.build/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+
+# Personal files
+CurrencyConverter/Models/KeyModel.swift
+
