@@ -1,7 +1,8 @@
 //
 //  CurrencyChoice.swift
-//  CurrencyConvertor
+//  Currency Converter
 //
+//  Created by Shazan Zaidi on 05/11/25.
 //
 
 import Foundation

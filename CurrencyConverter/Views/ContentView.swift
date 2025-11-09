@@ -23,12 +23,10 @@ struct ContentView: View {
                     
                     if viewModel.showInfo {
                             VStack(alignment: .leading, spacing: 0) {
-                                    HStack{
                                         Text("To Convert please tap the Convert Button!").padding()
-                                    }
-
                                 Divider()
-                                
+                                Text("Developed by Shazan Zaidi").opacity(0.5).padding()
+                                    
                               
                             }
                             .frame(width: 300)

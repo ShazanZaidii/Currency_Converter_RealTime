@@ -12,6 +12,7 @@ import SwiftUI
 @MainActor
 class ContentViewModel: ObservableObject {
     
+    @StateObject private var keyModel = KeyModel()
     @Published var baseAmount: Float64 = 1.0
     @Published var convertedAmount: Float64 = 1.0
     @Published var baseCurrency: CurrencyChoice = .Usa
@@ -20,7 +21,7 @@ class ContentViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var errorMessage = ""
     @Published var showInfo = false
-    @StateObject private var keyModel = KeyModel()
+    
     
     
     var numberFormatter: NumberFormatter {
